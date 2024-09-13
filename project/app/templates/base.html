@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <section id="nav">
+        <a href="{% url 'home' %}">HOME</a>
+        <a href="{% url 'login' %}">LOGIN</a>
+        <a href="{% url 'registration' %}">REGISTRATION</a>
+        <a href="#">CONTACT</a>
+    </section>
+    {% block content %}
+
+    {% endblock %}
+    <section id="foot"> 
+        <div>
+        <h1 >FOOTER CONTENT</h1>
+        <P>Lorem ipsum dolor sit amet consectetur <br>
+             adipisicing elit. Ratione pariatur doloribus accusamus <br>
+            consectetur dolores cum sapiente dicta aperiam vel numquam, <br>
+            perspiciatis quia dolore excepturi recusandae! Earum inventore officia ullam odio.</P>
+        </div>
+        
+        </div>
+    </section>
+</body>
+</html>
